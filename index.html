@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrasteia - Главная</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- box-icons -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.css" rel="stylesheet">
+</head>
+<body>
+    <section id="popup" class="popup">
+        <div class="popup__main">
+            <h1>Оставить заявку</h1> <br><br>
+            <div class="popup__main-div">
+                <div class="popup__main-div1">
+                    <div class="inp1">
+                        <div>Меня зовут</div>
+                        <input type="text" placeholder="Караникола Евгений">
+                    </div> <br><br>
+                    <div class="inp1">
+                        <div>Мой email</div>
+                        <input type="text" placeholder="example@gmail.com">
+                    </div> <br><br>
+                    <div class="inp1">
+                        <div>Мой номер</div>
+                        <input type="text" placeholder="+7 (___) ___-____.">
+                    </div>
+                </div>
+                <div class="popup__main-div1">
+                    <div class="inp1">
+                        <div>Комментарий</div>
+                    </div> <br><br>
+                    <div class="inp1">
+                        <br>
+                        <input type="text">
+                    </div>
+                </div>
+            </div> <br><br>
+            <div class="popup__main-footer">
+                <div class="pop_footer">
+                    <a href="#">Это срочная задача?</a>
+                    <svg width="144" height="84" viewBox="0 0 144 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="143" height="83" rx="21.5" stroke="#989EB1"/>
+                        <rect x="12" y="17" width="120" height="50" rx="12" fill="#F2F3F8"/>
+                        <rect x="12.5" y="12.5" width="59" height="59" rx="11.5" fill="#989EB1" stroke="#F2F3F8"/>
+                        <rect x="40" y="31" width="4" height="22" rx="2" fill="#F2F3F8"/>
+                        </svg>
+                        
+                </div>
+                <div class="pop_footer">
+                    <div class="pop_footer-block">
+                        <div>
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 3C8.37258 3 3 8.37258 3 15C3 21.6274 8.37258 27 15 27C21.6274 27 27 21.6274 27 15C27 8.37258 21.6274 3 15 3ZM0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15ZM21.9965 10.1289C22.6157 10.6793 22.6715 11.6274 22.1211 12.2465L14.1211 21.2465C13.8365 21.5668 13.4285 21.75 13 21.75C12.5715 21.75 12.1635 21.5668 11.8789 21.2465L7.87889 16.7465C7.32851 16.1274 7.38428 15.1793 8.00345 14.6289C8.62263 14.0785 9.57074 14.1343 10.1211 14.7535L13 17.9922L19.8789 10.2535C20.4293 9.63428 21.3774 9.57851 21.9965 10.1289Z" fill="#989EB1"/>
+                            </svg>
+                        </div>
+                        <div>Согласие на обработку <br> персональных данных</div>
+                    </div>
+                        <button class="popup-btn">Оформить заявку <i class='bx bxs-plus-circle' style="font-size: 41px;" ></i></button>
+                </div>
+
+            </div>
+        </div>
+        <div onclick="popupClose()" class="close__popup"><svg style="cursor: pointer;" width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M88 72C79.1634 72 72 79.1634 72 88C72 96.8366 79.1634 104 88 104C96.8366 104 104 96.8366 104 88C104 79.1634 96.8366 72 88 72ZM68 88C68 76.9543 76.9543 68 88 68C99.0457 68 108 76.9543 108 88C108 99.0457 99.0457 108 88 108C76.9543 108 68 99.0457 68 88ZM79.5858 79.5858C80.3668 78.8047 81.6332 78.8047 82.4142 79.5858L88 85.1716L93.5858 79.5858C94.3668 78.8047 95.6332 78.8047 96.4142 79.5858C97.1953 80.3668 97.1953 81.6332 96.4142 82.4142L90.8284 88L96.4142 93.5858C97.1953 94.3668 97.1953 95.6332 96.4142 96.4142C95.6332 97.1953 94.3668 97.1953 93.5858 96.4142L88 90.8284L82.4142 96.4142C81.6332 97.1953 80.3668 97.1953 79.5858 96.4142C78.8047 95.6332 78.8047 94.3668 79.5858 93.5858L85.1716 88L79.5858 82.4142C78.8047 81.6332 78.8047 80.3668 79.5858 79.5858Z" fill="#989EB1"/>
+</svg>
+</div>
+    </section>
+    <header>
+        <a href="#" class="logo"><img src="./assets/images/logo.svg" alt="logo"></a>
+
+        <nav class="navbar">
+            <a href="#">Главный</a>
+            <a href="#">О нас</a>
+            <a href="#">Услуги</a>
+            <a href="#">Как мы работаем </a>
+            <a href="#">Клиенты</a>
+            <a href="#">Контакты</a>
+        </nav>
+
+        <a href="#" onclick="popupYes()" class="header_btn">Оформить заявку <i class='bx bxs-plus-circle' style="font-size: 34px;" ></i></a>
+    </header>
+
+    <main> <br><br><br><br><br><br>
+        <section class="home">
+            <div class="home_one">
+                <h1>Детективно- <br> информационное <br> 
+                <span class="home_one-span">агентство</span></h1> <br>
+                <p>Владеешь информацией - владеешь миром</p> <br> <br>
+                <div class="home_one-btn">
+                    <div>Оформить заявку</div>
+                    <div><i class='bx bxs-plus-circle' style="font-size: 41px; padding-top: 5px;" ></i></div>
+                </div>
+            </div>
+            <div class="home_two">
+                <img src="./assets/images/home__banner.png" style="pointer-events: none;">
+            </div>
+
+            <div class="top"><svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 0C7.55228 0 8 0.447715 8 1V12.5858L12.2929 8.29289C12.6834 7.90237 13.3166 7.90237 13.7071 8.29289C14.0976 8.68342 14.0976 9.31658 13.7071 9.70711L7.70711 15.7071C7.31658 16.0976 6.68342 16.0976 6.29289 15.7071L0.292893 9.70711C-0.0976311 9.31658 -0.0976311 8.68342 0.292893 8.29289C0.683417 7.90237 1.31658 7.90237 1.70711 8.29289L6 12.5858V1C6 0.447715 6.44772 0 7 0Z" fill="#213887"/>
+                </svg>
+                </div>
+        </section>
+    </main>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
