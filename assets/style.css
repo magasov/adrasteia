@@ -226,3 +226,23 @@ header {
     bottom: 0;
     cursor: pointer;
 }
+
+.topLeft {
+    position: absolute;
+    right: 8%;
+    bottom: 0;
+    height: 54px;
+    display: flex;
+    background: #F2F3F8;
+    column-gap: 10px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 391px;
+    font-weight: 700;
+    color: #142251;
+}
+
+.topLeft p {
+    text-decoration: underline;
+}
