@@ -164,6 +164,7 @@ header {
 
 #popup {
     display: none;
+    z-index: 1001;
 }
 
 .home {
